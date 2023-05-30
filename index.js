@@ -4,7 +4,6 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
-
 // Sélectionne l'événement au hasard. 
 const getRandEvent = () => {
   const random = Math.floor(Math.random() * 3);
@@ -31,7 +30,6 @@ const getTrainingDays = event => {
   }
   return days; 
 }; 
-
 
 const name = 'Nala';
 
